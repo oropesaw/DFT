@@ -41,3 +41,4 @@ EOF
 pw.x < Ag.$NAME.${i}.in > Ag.$NAME.${i}.out
 grep "!" Ag.$NAME.${i}.out | awk '{print '${i}', $5}' >> E_vs_ECUTWFC.dat
 done
+ 
