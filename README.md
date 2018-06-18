@@ -5,8 +5,12 @@ The main objective of this repository is to study the adsorption of carbon monox
 ## Convergence parameters
 in the CC folder we can find different metals with a structure face-centered cubic (fcc). We analyze here how is the convergence with the cutting potential ```ecutwfc``` and the numbert of k-point.
 
+#### ecutwfc
+The following figure shows the convergence of energy as a function of paramater ```ecutwfc```. The calculation made is of type ```scf``` and the k-points are ```8 8 8```
 
 ![ecut_e](https://user-images.githubusercontent.com/37848611/41562372-bccedfec-7322-11e8-8679-c27af20f0aab.jpeg)
+
+
 
 
 element | constan exp [a.u] | constan sim [a.u]
