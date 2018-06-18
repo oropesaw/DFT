@@ -13,7 +13,7 @@ cat > Au.$NAME.${i}.in << EOF
 /
 
 &system
-    ibrav=4, celldm(1)=5.449, celldm(3)=16.408, nat=5, ntyp=1,
+    ibrav=4, celldm(1)=5.449, celldm(3)=7.4272, nat=4, ntyp=1,
     ecutwfc = ${i}
     ecutrho = $((i*8))
     occupations='smearing' 
@@ -37,11 +37,10 @@ ATOMIC_POSITIONS (alat)
  Au  0.500000  0.288675  0.816497
  Au  0.000000  0.577350  1.632993 
  Au  0.000000  0.000000  2.449490 
- Au  0.500000  0.288675  3.265986
 K_POINTS (automatic)
  8 8 1 1 1 1
 
 EOF
 pw.x < Au.$NAME.${i}.in > Au.$NAME.${i}.out
-grep "!" Au.$NAME.${i}.out | awk '{print '${i}', $5}' >> E_vs_ECUTWFC.dat
+grep "!" Au.$NAME.${i}.out | awk '{print '${i}', $5}' >> E_vs_ctff.dat
 done
