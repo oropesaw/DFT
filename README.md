@@ -24,3 +24,7 @@ element | ecutwfc [eV] |k-points| lattice const [a.u] | lattice const (exp)[a.u]
 Using the experimental lattice parameter of the Au, we built the cell with the ```slab``` representing the surface (111) of the Au. The following figure shows the surface with the CO molecule arranged in a ```top``` place.
 
 ![pwi2xsf](https://user-images.githubusercontent.com/37848611/41565852-e2dc7850-732e-11e8-9d90-ea3cc75533eb.jpg)
+
+The energy of adsorption on the surface is given by:
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{120}&space;E_{abs}&space;=&space;-&space;\left&space;(&space;E_{\mathrm{CO}/Sup}&space;-&space;E_{Sup}&space;-&space;E_{\mathrm{CO}}\right&space;)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\dpi{120}&space;E_{abs}&space;=&space;-&space;\left&space;(&space;E_{\mathrm{CO}/Sup}&space;-&space;E_{Sup}&space;-&space;E_{\mathrm{CO}}\right&space;)" title="E_{abs} = - \left ( E_{\mathrm{CO}/Sup} - E_{Sup} - E_{\mathrm{CO}}\right )" /></a>
