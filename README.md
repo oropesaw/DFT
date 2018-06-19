@@ -110,5 +110,5 @@ we will assume that the potential at infinity corresponds to the flat part of th
 element | potential [eV]|fermi lever[eV] |work funcntion [eV]| work function (exp) [eV]
 --------|---------------|----------------|-------------------|-------------------------
 ```Au (111)``` |11.347| 6.0925|5.2709 | 5.10 – 5.47
-```CO/Au (111)```|13.283| 6.8064|6.4765| ?
+```CO/Au (111)```|13.283| 6.8064|6.4765| -
 
