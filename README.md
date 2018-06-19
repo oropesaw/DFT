@@ -52,3 +52,14 @@ The work function can be calculated by the expression:
 The fermi energy can be easily obtained from the output. On the other hand, the potential function at infinity requires a post-processing of the output files. One must follow the following steps:
 
 1- Calculation of potential by ```pp.x```
+
+```bash
+pp.x < Au_SURFACE_PP.in > Au_SURFACE_PP.out
+```
+
+where the structure ```pp.x``` can be seen in [Quantum Espresso](https://www.quantum-espresso.org/). Then we must use ```average.x```:
+
+```bash
+average.x < Au_SURFACE.average.in > Au_SURFACE.average.out
+```
+
