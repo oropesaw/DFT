@@ -49,4 +49,6 @@ The work function can be calculated by the expression:
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{120}&space;\phi_{Au(111)}&space;=&space;v(\infty)&space;-&space;\epsilon_{fermi}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\dpi{120}&space;\phi_{Au(111)}&space;=&space;v(\infty)&space;-&space;\epsilon_{fermi}" title="\phi_{Au(111)} = v(\infty) - \epsilon_{fermi}" /></a>
 
-The fermi energy can be easily obtained from the output. On the other hand, the potential function at infinity requires a post-processing of the output files.
+The fermi energy can be easily obtained from the output. On the other hand, the potential function at infinity requires a post-processing of the output files. One must follow the following steps:
+
+1- Calculation of potential by ```pp.x```
