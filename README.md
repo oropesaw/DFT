@@ -29,6 +29,24 @@ The energy of adsorption on the surface is given by:
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{120}&space;E_{abs}&space;=&space;-&space;\left&space;(&space;E_{\mathrm{CO}/Sup}&space;-&space;E_{Sup}&space;-&space;E_{\mathrm{CO}}\right&space;)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\dpi{120}&space;E_{abs}&space;=&space;-&space;\left&space;(&space;E_{\mathrm{CO}/Sup}&space;-&space;E_{Sup}&space;-&space;E_{\mathrm{CO}}\right&space;)" title="E_{abs} = - \left ( E_{\mathrm{CO}/Sup} - E_{Sup} - E_{\mathrm{CO}}\right )" /></a>
 
-Without relaxing this structure we calculate how is the convergence of the adsorption energy in function of the ```ecutwfc``` parameter, the input files are in ```./ADSORPTION_ECUTWFC```. The value in convergence is ```ecutwfc = 408 eV```,see the output files and the following figure:
+Without relaxing this structure we calculate how is the convergence of the adsorption energy in function of the ```ecutwfc``` parameter, the input files are in ```./ADSORPTION_ECUTWFC```. The value in convergence is ```ecutwfc = 408 eV```, see the output files and the following figure:
 
 ## Surface Au(111)
+We carry out a relaxation of the surface Au (111) to obtain the distance between relaxed layers. And later calculate the work function of the surface. the work function turned out to be ```5.2709 eV``` and the relaxed structure turned out to be:
+
+```text
+...
+ATOMIC_POSITIONS (alat)
+Au       0.000000000  -0.000000000  -0.071640824
+Au       0.500000000   0.288675000   0.797508797
+Au       0.000000000   0.577350000   1.652174586
+Au       0.000000000  -0.000000000   2.520937441
+...
+```
+the results and some graphs can be observed in the output files in ```./RELAX```.
+### work function
+The work function can be calculated by the expression:
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{120}&space;\phi_{Au(111)}&space;=&space;v(\infty)&space;-&space;\epsilon_{fermi}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\dpi{120}&space;\phi_{Au(111)}&space;=&space;v(\infty)&space;-&space;\epsilon_{fermi}" title="\phi_{Au(111)} = v(\infty) - \epsilon_{fermi}" /></a>
+
+The fermi energy can be easily obtained from the output. On the other hand, the potential function at infinity requires a post-processing of the output files.
