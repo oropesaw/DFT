@@ -64,7 +64,17 @@ average.x < Au_SURFACE.average.in > Au_SURFACE.average.out
 ```
 
 ## CO molecule
-We are a relaxation of the CO molecule starting from the experimental distance ```112.8 pm```, the input files can be found in
+We are a relaxation of the CO molecule starting from the experimental distance ```112.8 pm```, the input files can be found in ```./MOLECULE/CO/``` . The modes of vibration of said molecule were also analyzed:
+
+```text
+freq (1) = -3.922381 [THz] = -130.836530 [cm-1]
+freq (2) = -3.922381 [THz] = -130.836530 [cm-1]
+freq (3) =  4.864145 [THz] =  162.250398 [cm-1]
+freq (4) =  5.492662 [THz] =  183.215483 [cm-1]
+freq (5) =  5.492662 [THz] =  183.215483 [cm-1]
+freq (6) =  64.08384 [THz] =  2137.60691 [cm-1]
+```
+We can see how the frequency of interest, ```freq(6) = 2137.6 [cm-1]``` is very similar to experimental value ```~2143 [cm-1]```.
 
 ## Chemisorption of CO on Au(111)
 #### high symmetry points
