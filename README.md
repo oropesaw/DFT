@@ -90,6 +90,11 @@ In the following figure we can see some surfaces of isodensity:
 ![rho_35](https://user-images.githubusercontent.com/37848611/41580849-c58c449e-7372-11e8-9d6d-79ee72a62215.png)
 
 #### work function
+The work function can be calculated from the output files, by post-processing with ```pp.x```. The mathematical expression that allows to calculate depends on the potential at infinity and the level of fermi.
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{120}&space;\phi_{Au(111)}&space;=&space;v(\infty)&space;-&space;\epsilon_{fermi}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\dpi{120}&space;\phi_{Au(111)}&space;=&space;v(\infty)&space;-&space;\epsilon_{fermi}" title="\phi_{Au(111)} = v(\infty) - \epsilon_{fermi}" /></a>
+
+To calculate the potential, we place a molecule on both sides of the surface and then relax the system. Then the post-processing programs ```pp.x``` and ```average.x``` were used, the details of the calculation can be seen in ```./CHEMISORPTION/work_function```.
 element | work funcntion [eV]| work function (exp) [eV]
 --------|--------------------|-------------------------
 ```Au (111)``` | 5.2709 | 5.10 – 5.47
