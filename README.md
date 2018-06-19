@@ -105,3 +105,9 @@ In the following figure we can see some surfaces of isodensity:
 
 ![rho_3d](https://user-images.githubusercontent.com/37848611/41580842-c027893c-7372-11e8-9884-e64839475567.png)
 ![rho_35](https://user-images.githubusercontent.com/37848611/41580849-c58c449e-7372-11e8-9d6d-79ee72a62215.png)
+
+#### work function
+element | work funcntion [eV]| work function (exp) [eV]
+--------|--------------------|-------------------------
+```Au (111)``` | |
+```CO/Au (111)```||
