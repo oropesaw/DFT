@@ -63,6 +63,7 @@ where the structure ```pp.x``` can be seen in [Quantum Espresso](https://www.qua
 average.x < Au_SURFACE.average.in > Au_SURFACE.average.out
 ```
 ## Chemisorption of CO on Au(111)
+#### high symmetry points
 Firstly, we locate the CO molecule almost vertically, allowing it to lean. Then we relax the structure, keeping the two lower layers of the surface fixed. To leave a fixed atom during relaxation we have to proceed as shown below in the input file:
 
 ```text
