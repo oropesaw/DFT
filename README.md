@@ -107,8 +107,8 @@ The results for the calculation of the potential are shown in the following figu
 we will assume that the potential at infinity corresponds to the flat part of the curve, in the region between surfaces. The calculations for the job function are shown in the following table:
 
                                                                                                                                                                                                                                                                     
-element | work funcntion [eV]| work function (exp) [eV]
---------|--------------------|-------------------------
-```Au (111)``` | 5.2709 | 5.10 – 5.47
-```CO/Au (111)```| 6.4765| ?
+element | potential [eV]|fermi lever[eV] |work funcntion [eV]| work function (exp) [eV]
+--------|---------------|----------------|-------------------|-------------------------
+```Au (111)``` |11.347| 6.0925|5.2709 | 5.10 – 5.47
+```CO/Au (111)```|13.283| 6.8064|6.4765| ?
 
