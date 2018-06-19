@@ -77,4 +77,10 @@ C       0.500000        0.288675        3.073734
 O       0.500001        0.289675        3.464843
 ...
 ```
-then we perform this procedure again for different high symmetry sites ```top```, ```bridge``` and ```hollow``` y comparamos sus energías
+then we perform this procedure again for different high symmetry sites ```top```, ```bridge``` and ```hollow```.
+
+configuration	|	Energy of CO/Au(111) [Ry]	| Energy of Au(111)	[Ry]|	Energy of CO	[Ry] |	Energy of adsoption [Ry]|
+--------------|---------------------------|-----------------------|-------------------|-------------------------
+top		|	-1158.8585489846	|	-1098.8639312247   |	-59.9853925693 	|0.009225190599941868 
+bridge	|		-1158.8315677922|		-1098.8639312247|		-59.9853925694    |   -0.017756001900004037
+hollow		|	-1158.8218290875|	-1098.8639312247 |	-59.9853837055  |     -0.027485842700116336 	
