@@ -109,5 +109,5 @@ In the following figure we can see some surfaces of isodensity:
 #### work function
 element | work funcntion [eV]| work function (exp) [eV]
 --------|--------------------|-------------------------
-```Au (111)``` | |
-```CO/Au (111)```||
+```Au (111)``` | 5.2709 | 5.10 – 5.47
+```CO/Au (111)```| 6.4765| ?
