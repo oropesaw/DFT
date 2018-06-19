@@ -111,3 +111,6 @@ element | work funcntion [eV]| work function (exp) [eV]
 --------|--------------------|-------------------------
 ```Au (111)``` | 5.2709 | 5.10 – 5.47
 ```CO/Au (111)```| 6.4765| ?
+
+![figure_1](https://user-images.githubusercontent.com/37848611/41584651-3e89198e-737e-11e8-9927-59109c0e67b1.png)
+
