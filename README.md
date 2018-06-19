@@ -29,4 +29,4 @@ The energy of adsorption on the surface is given by:
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{120}&space;E_{abs}&space;=&space;-&space;\left&space;(&space;E_{\mathrm{CO}/Sup}&space;-&space;E_{Sup}&space;-&space;E_{\mathrm{CO}}\right&space;)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\dpi{120}&space;E_{abs}&space;=&space;-&space;\left&space;(&space;E_{\mathrm{CO}/Sup}&space;-&space;E_{Sup}&space;-&space;E_{\mathrm{CO}}\right&space;)" title="E_{abs} = - \left ( E_{\mathrm{CO}/Sup} - E_{Sup} - E_{\mathrm{CO}}\right )" /></a>
 
-Without relaxing this structure we calculate how is the convergence of the adsorption energy in function of the ecutwfc parameter.the input files are in ```./ADSORPTION_ECUTWFC```. 
+Without relaxing this structure we calculate how is the convergence of the adsorption energy in function of the ```ecutwfc``` parameter, the input files are in ```./ADSORPTION_ECUTWFC```. The value in convergence is ```ecutwfc = 408```
