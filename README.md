@@ -65,4 +65,16 @@ average.x < Au_SURFACE.average.in > Au_SURFACE.average.out
 ## Chemisorption of CO on Au(111)
 Firstly, we locate the CO molecule almost vertically, allowing it to lean. Then we relax the structure, keeping the two lower layers of the surface fixed. To leave a fixed atom during relaxation we have to proceed as shown below in the input file:
 
-
+```text
+...
+ATOMIC_POSITIONS alat
+Au      0.000000        0.000000        0.000000    0   0   0
+Au      0.500000        0.288675        0.816497    0   0   0
+Au      0.000000        0.577350        1.632993 
+Au      0.000000        0.000000        2.449490
+ 
+C       0.500000        0.288675        3.073734
+O       0.500001        0.289675        3.464843
+...
+```
+then we perform this procedure again for different high symmetry sites ```top```, ```bridge``` and ```hollow``` y comparamos sus energías
