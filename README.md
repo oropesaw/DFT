@@ -101,4 +101,5 @@ config |	Energy CO/Au(111) [Ry]	| Energy Au(111)	[Ry]|	Energy CO	[Ry] |	adsoptio
 ```hollow``` |	-1158.8218290875|	-1098.8639312247 |	-59.9853837055  |     -0.027485842700116336 	
 
 #### electronic density
+In the following figure we can see some surfaces of isodensity:
 
