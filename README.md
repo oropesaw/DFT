@@ -104,7 +104,9 @@ The results for the calculation of the potential are shown in the following figu
 
 ![figure_1](https://user-images.githubusercontent.com/37848611/41584651-3e89198e-737e-11e8-9927-59109c0e67b1.png)
 
+we will assume that the potential at infinity corresponds to the flat part of the curve, in the region between surfaces. The calculations for the job function are shown in the following table:
 
+                                                                                                                                                                                                                                                                    
 element | work funcntion [eV]| work function (exp) [eV]
 --------|--------------------|-------------------------
 ```Au (111)``` | 5.2709 | 5.10 – 5.47
