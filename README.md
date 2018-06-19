@@ -94,12 +94,19 @@ The work function can be calculated from the output files, by post-processing wi
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{120}&space;\phi_{Au(111)}&space;=&space;v(\infty)&space;-&space;\epsilon_{fermi}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\dpi{120}&space;\phi_{Au(111)}&space;=&space;v(\infty)&space;-&space;\epsilon_{fermi}" title="\phi_{Au(111)} = v(\infty) - \epsilon_{fermi}" /></a>
 
-To calculate the potential, we place a molecule on both sides of the surface and then relax the system. Then the post-processing programs ```pp.x``` and ```average.x``` were used, the details of the calculation can be seen in ```./CHEMISORPTION/work_function```.
+To calculate the potential, we place a molecule on both sides of the surface and then relax the system. Then the post-processing programs ```pp.x``` and ```average.x``` were used, the details of the calculation can be seen in ```./CHEMISORPTION/work_function```. The level of fermi can be found from the output of the calculations with ```pw.x``` using a simple bash command:
+
+```bash
+grep 'Fermi' name_scf_output.out
+```
+
+The results for the calculation of the potential are shown in the following figure:
+
+![figure_1](https://user-images.githubusercontent.com/37848611/41584651-3e89198e-737e-11e8-9927-59109c0e67b1.png)
+
 
 element | work funcntion [eV]| work function (exp) [eV]
 --------|--------------------|-------------------------
 ```Au (111)``` | 5.2709 | 5.10 – 5.47
 ```CO/Au (111)```| 6.4765| ?
-
-![figure_1](https://user-images.githubusercontent.com/37848611/41584651-3e89198e-737e-11e8-9927-59109c0e67b1.png)
 
