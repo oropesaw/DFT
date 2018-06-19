@@ -44,24 +44,6 @@ Au       0.000000000  -0.000000000   2.520937441
 ...
 ```
 the results and some graphs can be observed in the output files in ```./RELAX```.
-### work function
-The work function can be calculated by the expression:
-
-<a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{120}&space;\phi_{Au(111)}&space;=&space;v(\infty)&space;-&space;\epsilon_{fermi}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\dpi{120}&space;\phi_{Au(111)}&space;=&space;v(\infty)&space;-&space;\epsilon_{fermi}" title="\phi_{Au(111)} = v(\infty) - \epsilon_{fermi}" /></a>
-
-The fermi energy can be easily obtained from the output. On the other hand, the potential function at infinity requires a post-processing of the output files. One must follow the following steps:
-
-1- Calculation of potential by ```pp.x```
-
-```bash
-pp.x < Au_SURFACE_PP.in > Au_SURFACE_PP.out
-```
-
-where the structure ```pp.x``` can be seen in [Quantum Espresso](https://www.quantum-espresso.org/). Then we must use ```average.x```:
-
-```bash
-average.x < Au_SURFACE.average.in > Au_SURFACE.average.out
-```
 
 ## CO molecule
 We are a relaxation of the CO molecule starting from the experimental distance ```112.8 pm```, the input files can be found in ```./MOLECULE/CO/``` . The modes of vibration of said molecule were also analyzed:
